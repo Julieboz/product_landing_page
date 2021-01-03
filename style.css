@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Sheppards&family=Permanent+Marker&display=swap');
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+
+body{
+  background-color: #000000;
+  font-family: sans-serif;
+}
+#page-wrapper {
+  position: relative;
+  background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/68/87/g795eu.jpg)
+}
+
+#header {
+  position: fixed;
+  top: 0;
+  margin: auto;
+  min-height: 75px;
+  width: 100%;
+  padding: 0px 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #000000;
+  }
+
+  
+#header-img{
+  margin: auto;
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+  border-radius: 100px;
+
+}
+
+@media(max-width: 560px){
+  #header-img{
+    position:relative;
+    width: 50%;
+  }
+}
+
+nav{ 
+  width: 35em;
+  list-style-type:none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  }
+
+@media(max-width: 560px){
+  nav{
+    flex-direction: column;
+  }
+}
+
+
+.nav-link{
+  display: grid;
+  color: #06f9d5;
+  text-decoration: none;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 26px;
+  margin: 0px -25px 0px;
+  }
+
+
+
+
+.container, .form {
+    display: block;
+    width: 90%;
+    margin: auto;
+  
+  }
+.container h3{
+  font-family: 'Permanent Marker', cursive;
+  font-size: 44px;
+}
+#heading{
+ margin: 150px 70px 15px 70px;
+  text-align: center;
+  background-color: #06f9d5;
+  border-radius: 15px;
+ }
+#heading h2{
+  font-family: 'Mrs Sheppards', cursive;
+  font-size: 76px;
+  
+}
+#heading h3{
+  margin: -50px 0 70px;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+#about, #how-it-works, #pricing, #form {
+  background-color: #06f9d5;
+  padding: 5px 10px 5px 10px;
+  border-radius: 15px;
+  margin: 15px;
+
+}
+
+.about {
+  display: flex;
+  font-family: 'Permanent Marker', cursive;
+  
+}
+
+  
+#video{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@media(max-width: 876px){
+  .about{
+   flex-direction: column;
+   width: 100%;
+     }
+  #video{
+  max-width: 100%;
+  }}
+
+#price-columns{
+  text-align: center;
+}
+.column{
+display: inline-block;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 0px 0px 30px 25px;
+  text-align: center;
+}
+  
+  
+  
+  
+.level{
+  font-family: 'Permanent Marker', cursive;
+  width: 100%;
+  position: relative;
+  
+}
+
+
+@media(max-width: 560px){
+  .column{
+   flex-direction: column;
+    width: 75%;}
+  }
+
+#how-it-works p, ul{
+ font-family: 'Permanent Marker', cursive;
+  
+}
+#form{
+   font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  font-size: 18px;
+}
+.submit-button, .select-button{
+  border-radius: 15px;
+  font-family: Tahoma;
+  cursor: pointer;
+}
+
+#email{
+border-radius: 5px;
+  width: 45%;
+  height: 20px;
+}
+#button{
+ padding: 15px 0px;
+}
+
+#footer li{
+  font-family: 'Permanent Marker', cursive;
+  text-align: right;
+  margin: 25px;
+  max-width: 100;
+}
